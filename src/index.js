@@ -105,7 +105,7 @@ module.exports = function parse(feedXML, callback) {
           };
         },
         'itunes:explicit': isExplicit,
-        'itunes:summary': 'summary',
+        'itunes:subtitle': 'subtitle',
         'itunes:season': 'season',
         'itunes:episode': 'episode',
         'itunes:episodeType': 'episodeType',
